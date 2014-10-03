@@ -1,0 +1,36 @@
+//header
+
+.containter{
+  margin-top:8%;
+  margin-bottom:8%;
+  border: 2px solid $borderColor;
+  position: relative;
+}
+
+.logo-top{
+	position: absolute;
+	top:-5%;
+	left:36%;
+}
+
+.nav-man{
+	position: absolute;
+	top:63px;
+	left:0%;
+	width:9%;
+	z-index:100;
+}
+.nav-wolk{
+	position: absolute;
+	top:0.5%;
+	left:1.8%;
+	width:9%;
+	z-index:100;
+	display:none;
+}
+.header-onder{
+	background:$background-1;
+	height:100px;
+	border: 2px solid $borderColor;
+
+}

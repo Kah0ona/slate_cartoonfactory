@@ -1,0 +1,51 @@
+// *************************************
+//
+// Navigation
+// -> Reusable navigation module
+//
+// *************************************
+
+.Navigation {
+  @include clearfix;
+  text-align: center;
+}
+
+
+// -------------------------------------
+// Module specific variables
+// -------------------------------------
+// *************************************
+//
+// Navigation
+// -> Reusable navigation module
+//
+// *************************************
+
+//midden header
+//------------------------------------------------------------------------------------------------------------- -->
+
+//nav------------------------------------------------------------------------------------------------->
+.header-midden{}
+.header-midden-nav{}
+.Navigation-list{
+  margin:0;
+}
+.Navigation-list--dropdown{
+}
+.Navigation-listItem{
+  float: left;
+  padding:2%;
+  margin:0;
+}
+.Navigation  > ul >.Navigation-listItem:nth-of-type(3){
+  margin-right: 41%;
+}
+.Navigation-link{
+  margin:0 auto;
+  z-index: 101;
+  position: relative;
+}
+// einde nav ----------------------------------------------------------------------------------------->
+
+//------------------------------------------------------------------------------------------------------------- -->
+//einde midden header

@@ -1,0 +1,17 @@
+.Footer {
+}
+
+.Socket{
+	p{
+		text-align: center;
+	}
+}
+// RESPONSIVE FOOTER
+.Footer-inner .widget {
+	@include span-columns(4);
+	@media screen and(max-width: 980px){
+		@include span-columns(12);
+	}
+}
+
+
