@@ -4,8 +4,24 @@
 .Socket{
 	p{
 		text-align: center;
+		padding: 1%;
 	}
 }
+ .footer-1-article-1{
+	height:150px;
+	margin-top: 2%;
+ 	background-size:100%;
+	position: relative;
+	background: url("../img/BannerStrips.jpg") no-repeat;
+	background-position: center center;
+	background-attachment: relative;
+	background-size: cover;
+ }
+ .footer-2-article-1{
+ 	background:$background-1;
+	height: 50px;
+	margin-top: 2%;
+ }
 // RESPONSIVE FOOTER
 .Footer-inner .widget {
 	@include span-columns(4);

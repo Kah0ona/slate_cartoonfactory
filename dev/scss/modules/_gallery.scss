@@ -1,0 +1,25 @@
+.albumPage-wrapper .ngg-gallery-thumbnail-box{
+	margin-top: 15px;
+	margin-right:2%;
+	width: 32%;
+	border: 2px solid $borderColor;
+}
+
+.albumPage-wrapper  .ngg-gallery-thumbnail-box:nth-of-type(3n+3) {
+	margin-right: 0px;
+}
+
+
+.albumPage-wrapper .ngg-gallery-thumbnail-box:last-of-type{
+	border: 2px solid #ff0000 !important;
+}
+
+.albumPage-wrapper .ngg-gallery-thumbnail img{
+	border: none;
+	width: 100% !important;
+	height: 100% !important;
+	max-width: auto !important; 
+	padding: 0px !important;
+	margin: 0px !important;
+}
+

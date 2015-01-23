@@ -1,0 +1,125 @@
+
+// blog  all ----------------------------------------------------------------------------
+
+.blog-wrapper{
+	background: $background-2;
+	border: 2px solid $borderColor;
+	margin-top:2%;
+}
+.titel-canvas{
+	height:50px;
+	background: $button1background;
+	h2{
+	padding:0% 5%;
+	float:left;
+	  margin-right: 2%;
+	  margin-bottom: 0%;
+	  margin-top: 0;
+	  color:#000;
+	  font-size: 30px;
+	  font-weight: 900;
+	}
+}
+.date-canvas{
+	height:50px;
+	background: url("../img/kleinFabriek.jpg") no-repeat;
+	text-align: center;
+	padding:1.5%;
+}
+.text-canvas{
+	position: relative;
+	width:100%;
+	height:100%;
+	background: url("../img/kleinFabriek.jpg") no-repeat;
+	background-position: center center;
+	background-attachment: relative;
+	background-size:cover;
+	p{
+		z-index: 2;
+		position: relative;
+		padding: 1% 1% 8% 1%;
+	}
+}
+.text-wolk{
+	position: absolute;
+	z-index:1;
+	width: 98%;
+	height: 92%;
+	top:4%;
+	left:1%;
+}
+.button-canvas{
+	text-align: center;
+	padding:1%;
+	background:#75a83f;
+}
+.devider-canvas{
+	 background:$background-1;
+	height: 25px;
+	margin-top: 2%;
+}
+ // singel ---------------------------------------------------------------------------------
+
+.comment-reply-title{
+		padding:0% 5%;
+	width:100%;
+  border: 2px solid $borderColor;
+  background: $button1background;
+  float:left;
+  margin-right: 2%;
+  margin-bottom: 0%;
+  margin-top: 0;
+  color:#000;
+  font-size: 30px !important;
+  font-weight: 900 !important;
+}
+.comment-form{
+	padding:2%;
+}
+.logged-in-as{
+
+}
+.form-allowed-tags{
+	display:none;
+}
+
+ // comments--------------------------------------------------------------------------------
+.comment-respond{
+	.comment-form{
+		  border: 2px solid $borderColor;
+		  padding-bottom:7%;
+		  background:$background-2;
+
+	}
+}
+.comment-notes{
+	margin:5% 0 2% 0;
+}
+.comment-form-comment, .comment-form-author, .comment-form-email, .comment-form-url{
+	margin-bottom:1%;
+	label{
+		display: block;
+	}
+	textarea{
+		width:100%;
+	}
+}
+.comment-form-comment{
+	margin-top:1%;
+}
+.form-submit{
+	#submit{
+		padding:1% 3%;
+	  border: 2px solid $borderColor;
+	  background: $button2background;
+	  float:right;
+	  color:#000;
+	  font-size: 15px;
+	  font-weight: 900;
+	}
+}
+.commentlist{
+	border: 2px solid $borderColor;
+	padding-bottom:3%;
+	background:$background-2;
+}

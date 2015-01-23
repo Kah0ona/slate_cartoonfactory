@@ -36,14 +36,16 @@
   float: left;
   padding:2%;
   margin:0;
+  font-size: 17px;
 }
 .Navigation  > ul >.Navigation-listItem:nth-of-type(3){
-  margin-right: 41%;
+  margin-right: 28%;
 }
 .Navigation-link{
   margin:0 auto;
   z-index: 101;
   position: relative;
+     font-family: $t-headerFontFamily ;
 }
 // einde nav ----------------------------------------------------------------------------------------->
 

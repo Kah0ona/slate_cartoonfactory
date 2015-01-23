@@ -1,10 +1,48 @@
 
 
 //base ------------------------------------------------------------------------------------
+
 .content-wrapper{
 	content{
 		margin-top:2%;
 	}
+}
+.content-article{
+
+}
+.p-positie1{
+	margin-left:35%;
+}
+.p-positie2{
+	margin-left:43%;
+}
+.p-positie3{
+	margin-left:22%;
+}
+.title{
+	padding:0% 5%;
+	width:100%;
+  border: 2px solid $borderColor;
+  background: $button1background;
+  float:left;
+  margin-right: 2%;
+  margin-bottom: 0%;
+  color:#000;
+  font-size: 30px !important;
+  font-weight: 900 !important;
+}
+.title2{
+	padding:0% 5%;
+	width:100%;
+  border: 2px solid $borderColor;
+  background: $button2background;
+  float:left;
+  margin-right: 2%;
+  margin-bottom: 3%;
+  margin-top:0;
+  color:#000;
+  font-size: 30px;
+  font-weight: 900;
 }
 .content-1{
 	.content-article { 
@@ -15,6 +53,7 @@
 		margin:0;
 		border-bottom: 2px solid $borderColor;
 		padding:0% 5%;
+		text-align: center;
 	}
 	li{
 		font-size: 20px;
@@ -27,7 +66,7 @@
 }
 .content-6{
 	.content-article{
-		height:100px;
+		height:auto;
 	}
 }
 ul{
@@ -42,9 +81,6 @@ ul{
 	border: 2px solid $borderColor;
 	background:$background-2;
 	position:relative;
-		p{
-		padding:0% 2% 2% 1%;
-	}
 } 
 .content-1-article-2-video{
 		width:100%;
@@ -52,6 +88,7 @@ ul{
 	}
 .content-2-article-1{
 	background:$background-1;
+	padding:1%;
 	p{
 		text-align: center; 
 	}
@@ -96,3 +133,316 @@ ul{
 }
 
 //albums------------------------------------------------------------------------------------
+.album-wrapper{
+	content{
+		margin-top:2%;
+	}
+	.content-1{
+		.content-article { 
+			height: 350px;
+		}
+		.content-1-article-1-h4{
+			background:$button1background;
+			margin:0;
+			border-bottom: 2px solid $borderColor;
+			padding:0% 5%;
+		}
+		li{
+			font-size: 20px;
+		}
+	}
+	.content-2, .content-3{
+		.content-article{
+			height:200px;
+		}
+	}
+	.content-4{
+		.content-article{
+			height:100px;
+		}
+	}
+
+	.album-1-article-1{
+		background: url("../img/afbeelding4.jpg") no-repeat;
+		background-size:125%;
+		background-position:49% 32%;
+	}
+	.album-1-article-2{
+		background: url("../img/karikaturen.jpg") no-repeat;
+		background-size:125%;
+		background-position:49% 32%;
+	}
+
+	.album-2-article-1{
+		background: url("../img/afbeelding5-1.jpg") no-repeat;
+		background-size:125%;
+		background-position:49% 32%;
+	}
+	.album-2-article-2{	
+		background: url("../img/afbeelding5-2.jpg") no-repeat;
+		background-size:125%;
+		background-position:49% 32%;}
+	.album-2-article-3{
+		background: url("../img/afbeelding3.jpg") no-repeat;
+		background-size:125%;
+		background-position:49% 32%;
+	}
+	.album-2-article-4{
+		background: url("../img/afbeelding5-3.jpg") no-repeat;
+		background-size:125%;
+		background-position:49% 32%;
+	}
+
+	.album-3-article-1{
+		background: url("../img/afbeelding4-2.jpg") no-repeat;
+		background-size:125%;
+		background-position:49% 32%;
+	}
+
+	.album-3-article-2{
+		background: url("../img/divers.JPG") no-repeat;
+		background-size:204%;
+		background-position:49% 32%;
+		.button-bottom-right{
+			margin-right:1%;
+		}
+	}
+
+	.content-4-article-1{
+		background:$background-1;
+	}
+}
+//videoAlbum----------------------------------------------------------------------------------
+.videoAlbum{
+	iframe{
+		float: left;
+		width:31%;
+		margin:1%;
+		border: 2px solid $borderColor;
+	}
+}
+
+//workshop------------------------------------------------------------------------------------
+.workshop-wrapper{
+	content{
+		margin-top:2%;
+	}
+	.album-1-article-1{
+		background:$background-1;
+		background-size:125%;
+		background-position:49% 32%;
+	}
+
+	.workshop-4-article-1{
+		height:150px;
+		background: url("../img/BannerStrips.jpg") no-repeat;
+		background-size:129%;
+	}
+	.workshop-5-article-1{
+		background:$background-1;
+		height:100px;
+	}
+
+	.workshop-1-article-2-aside1, .workshop-1-article-2-aside2{
+		height:164.9px;
+	}
+	.workshop-1-article-2-aside1{
+		margin-bottom:7%;
+		background: url("../img/workshop.jpg") no-repeat;
+		background-size:125%;
+	}
+	.workshop-1-article-2-aside2{
+	}
+}
+//contact ------------------------------------------------------------------------------------
+
+.contact-wrapper{
+	content{
+		margin-top:2%;
+	}
+	.contact-1-article-1{
+		height: 350px;
+	}
+	.contact-3-article-1{
+		height:50px; 
+		text-align: center;
+		background:$background-1;
+		padding:1%;
+	}
+	.contact-4-article-1{ 
+		height:550px; 
+	}
+
+	#map_canvas{
+		height: 345px;
+	}
+}
+
+//app ------------------------------------------------------------------------------------
+.app-wrapper{
+	content{
+		margin-top:2%;
+	}
+	.app-2-article-1{
+		height: 509px;
+	}
+	.app-3-article-1{
+		height: 138px;
+	}
+	.app-4-article-1{
+		.Content--app-Gimg{
+			 -ms-transform: rotate(33deg); /* IE 9 */
+   			 -webkit-transform: rotate(33deg); /* Chrome, Safari, Opera */
+   				transform: rotate(33deg);
+   					width: 98%;
+		}
+		height: 297px;
+		padding-top:33%;
+		padding-left:2%;
+		background: url("../img/kleinFabriek.jpg") no-repeat;
+	}
+	.app-4-article-2{
+		height: 297px;
+	}
+	.app-5-article-1{
+		background:$background-1;
+		height: 50px;
+		padding:2%;
+		text-align: center;
+	}
+	.App-iphone{
+		width: 83%;
+	}
+}
+.content-article.app-2-article-1{
+	text-align: center;
+}
+// responsive -------------------------------------------------------------------------------------------------
+@media all and (min-width: 1024px) {
+	p {
+  		font-size: 16px;
+	}
+}
+@media all and (max-width: 780px) {
+	.content-6 .content-article{
+		height: 120px;
+	}
+}
+@media all and (max-width: 667px) {
+	.content-3-article-1, .content-3-article-2 , .content-4-article-1, .content-4-article-2, .content-4-article-3 {
+		height: 280px !important;
+	}
+	.content-6-article-1 {
+		height: 230px !important;
+	}
+}
+
+@media all and (max-width: 640px) {
+	.starcartoon{
+		width: 5%;
+	}
+	.content-article{
+		margin-bottom: 4%;
+	}
+	.button1 {
+		border-right:none;
+		text-align: center;
+		left:none;
+		top:none;
+	}
+	.content-6 .content-article{
+		height: 170px;
+	}
+	.content-1-article-1-h4{
+		text-align: center;
+	}
+	.button-bottom-right{
+		right: -12px;
+	}
+	.contact-wrapper{
+		.contact-1-article-1{
+			height: 200px;
+		}
+		.contact-3-article-1{
+			height:50px; 
+			text-align: center;
+			background:$background-1;
+			padding:1%;
+		}
+		.contact-4-article-1{ 
+			height:550px; 
+		}
+
+		#map_canvas{
+			height: 190px;
+		}
+		.content-3 .content-article{
+			height: 40px;
+		}
+		.content-4 .content-article{
+			height: 550px;
+		}
+	}
+}
+@media all and (max-width: 640px) {
+	.content-3 .content-article, .content-4 .content-article{
+		height: 300px;
+	}
+	.content-4 .content-article, .content-6 .content-article{
+		height: 250px;
+	}
+	.app-wrapper .App-iphone{
+		width: 58%;
+
+	}
+	.app-wrapper .app-4-article-1 {
+		padding:18% 0 1% 21%;
+
+	}
+	.app-2-article-1{
+		padding: 1% 0 1% 30%;
+	}
+	.app-4-article-2{
+		padding:7% 0 18% 28%;
+	}
+	.Content--app-Gimg {
+		width: 62%;
+	}
+	.qr-img{
+		width: 80%;
+	}
+	.app-wrapper .app-4-article-1 .Content--app-Gimg {
+		transform:none;
+		width: 70%;
+	}
+}
+@media all and (max-width: 414px) {
+  .button-bottom-right{
+    right: -7px;
+  }
+}
+
+
+@media all and (max-width: 375px) {
+		.content-3-article-1, .content-3-article-2 {
+			height: 300px !important;
+		}
+		.content-6-article-1 {
+		height: 230px !important;
+	}
+}
+
+@media all and (max-width: 320px) {
+	
+	.contact-wrapper{
+		.content-3 .content-article{
+				height: 60px;
+			}
+	}
+	.content-3-article-1, .content-3-article-2 {
+			height: 370px !important;
+		}
+		.content-6-article-1 {
+		height: 270px !important;
+	}
+}

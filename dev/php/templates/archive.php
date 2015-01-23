@@ -1,8 +1,8 @@
 <?php get_header(); ?>
-
+	<div class="u-gridContainer  albumPage-wrapper"> 
 		<?php if (have_posts()) : ?>
 	
-			<h2>
+			<h2 class="title">
 			<?php if ( is_day() ) : ?>
 				<?php printf( __( 'Daily Archives: %s', '' ), '<span>' . get_the_date() . '</span>' ); ?>
 			<?php elseif ( is_month() ) : ?>
@@ -16,24 +16,31 @@
 	
 		<?php while (have_posts()) : the_post(); ?>
 	
-			<article <?php post_class() ?>>
-			
-				<h3 id="post-<?php the_ID(); ?>">
-					<a href="<?php the_permalink() ?>" 
-					   rel="bookmark" 
-					   title="Permanent Link to <?php the_title_attribute(); ?>">
-						<?php the_title(); ?>
-					</a>
-				</h3>
-				<span><?php the_time( get_option( 'date_format' ) ); ?></span>
-
-				<div>
-					<?php the_content() ?>
+			<article class="u-gridRow " <?php post_class() ?> id="post-<?php the_ID(); ?>">
+				<div  class="u-gridCol8 blog-wrapper titel-canvas"> 
+					<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 				</div>
-
-				<p><?php the_tags('Tags: ', ', ', '<br />'); ?> Posted in <?php the_category(', ') ?> | <?php edit_post_link('Edit', '', ' | '); ?>  <?php comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?></p>
-
+				<div class="u-gridCol4 blog-wrapper date-canvas" >
+					<span class=""><?php the_time( get_option( 'date_format' ) ); ?></span>
+				</div>
 			</article>
+
+			<article class="u-gridRow ">
+				<div class="u-gridCol8 blog-wrapper box-padding text-canvas">
+					 <img class="text-wolk" src="<?php echo get_stylesheet_directory_uri(); ?>/img/text-wolk.png"/>
+					<?php the_content('Read the rest of this entry &raquo;'); ?>
+				</div>
+			</article>
+		
+
+			<article class="u-gridRow ">
+				<div class="u-gridCol12 blog-wrapper button-canvas">
+					<p><?php the_tags('Tags: ', ', ', '<br />'); ?> Posted in <?php the_category(', ') ?> | <?php edit_post_link('Edit', '', ' | '); ?>  <?php comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?></p>
+				</div>
+			</article>
+			<content class="u-gridRow">
+				<article class="content-article  u-gridCol12 devider-canvas"></article>
+			</content> 
 
 		<?php endwhile; ?>
 	
@@ -50,7 +57,7 @@
 	
 		<?php endif;?>
 
-
+	</div>
 <?php get_sidebar(); ?>
 
 <?php get_footer(); ?>

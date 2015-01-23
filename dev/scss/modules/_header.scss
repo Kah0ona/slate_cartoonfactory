@@ -9,8 +9,10 @@
 
 .logo-top{
 	position: absolute;
-	top:-5%;
-	left:36%;
+	top:-74px;
+	left:39%;
+	z-index:999;
+	width:25%;
 }
 
 .nav-man{
@@ -22,15 +24,61 @@
 }
 .nav-wolk{
 	position: absolute;
-	top:0.5%;
-	left:1.8%;
-	width:9%;
 	z-index:100;
+	top:-5px;
 	display:none;
+} 
+.nav-wolk1{
+display:none;
 }
+.nav-wolk2{
+display:none;
+}
+.nav-wolk3{
+display:none;
+}
+.nav-wolk4{
+display:none;
+}
+.nav-wolk5{
+display:none;
+}
+.nav-wolk6{
+display:none;
+}
+.nav-wolk7{
+display:none;
+}
+
 .header-onder{
-	background:$background-1;
 	height:100px;
 	border: 2px solid $borderColor;
-
 }
+@media all and (max-width: 568px) {
+	.logo-top{
+	left:26%;
+	}
+
+} 
+@media all and (max-width: 414px) {
+	.logo-top{
+	left:23%;
+	}
+
+} 
+
+@media all and (max-width: 384px) {
+	.logo-top{
+	left:28%;
+	}
+
+} 
+@media all and (max-width: 320px) {
+	.logo-top{
+	left:24%;
+	width: 155px!important;
+	margin-top:102px!important;
+
+	}
+
+} 

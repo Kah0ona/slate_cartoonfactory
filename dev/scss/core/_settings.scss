@@ -18,9 +18,24 @@
 
 $max-width: 70rem;
 // ----- Colors ----- //
+.banner{
+	background-size:100%;
+	position: relative;
+	background:url("../img/BannerFabriek.jpg") no-repeat;
+	background-position: center center;
+	background-attachment: relative;
+	background-size: cover;
+}
+.box-padding{
+	padding:2%;
+}
+p{
+	margin:0;
+}
 $borderColor: #000;
 $background-1:#bee8e9;
 $background-2:#edefef;
+$background-3:#bee8e9;
 $button1background:#fcd71c;
 $button2background:#c6cccd;
 $acolor:#000;
@@ -41,7 +56,7 @@ $l-boxShadow      : 0 1px 2px rgba($c-black, 0.25);
 // ----- Text ----- //
 
 $t-fontFamily       : "Schoolbell";
-$t-headerFontFamily : "Schoolbell";
+$t-headerFontFamily : "Luckiest Guy";
 $t-fontSize         : 14px;
 $t-lineHeight       : 1.5;
 

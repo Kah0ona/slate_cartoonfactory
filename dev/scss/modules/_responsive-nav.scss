@@ -51,15 +51,17 @@
 
 
 @media all and (max-width: 1040px) {
-	.Nav-tel {
-		display: none;
+	.Nav-tel, .nav-man, .nav-wolk{
+		display: none !important;
 	 }
+
 	 #js-navCollapseTarget {
 		display: none;
         position: static;
         top: 0px;
         left: 0;
         margin: 0;
+        margin-top: 10%;
         width: 100%;
         z-index: 999999;
 	 }
@@ -108,6 +110,7 @@
 		width: 100%;
 		z-index: 999999;
 		text-align: center;
+		padding:0;
 
 		&:last-of-type {
 			margin-bottom: 15px;
@@ -145,17 +148,17 @@
 		margin: 0;
 		font-weight: 400;
 		letter-spacing: 1.7px;
-	 
-
-
 	}
+.Navigation-link.is-active{
+	background-color:$button1background;
+}
 	//	This is for those 3 contact icons on the left of the navbar
 	.Mob-contact-ico {
 		display: block;
 		z-index: 5000;
 
 		a { 
-			border: 2px solid white;
+			border: 2px solid #000;
 			position: absolute;
 			display: block;
 			width: 35px;
@@ -163,16 +166,17 @@
 			border-radius: 7px;
 			top: 8px;
 			background-color: transparent;
+			z-index: 9999;
 			.Icon--inline {
-				fill: white;
+				fill: #000;
 				width: 2em;
-				height: 2em;
+				height: 3em;
 				padding-bottom: 1em;				
 			}
 		}
 
 		.telsvg {
-			left: 10px;				
+			left: 26px;				
 			.Icon--inline {
 				margin: -4px;
 				margin-top: 5px;
@@ -188,12 +192,18 @@
 		}
 
 		.mailsvg {
-			left: 100px;				
+			left: 70px;				
 			.Icon--inline {
 				margin: -4px;
 				margin-top: 5px;
 			}
 		}
+	}
+	.Mob-contact-ico .telsvg .Icon--inline{
+		margin: 1px 2px -4px;
+	}
+	.Mob-contact-ico .mailsvg .Icon--inline{
+		margin: 1px 2px -4px;
 	}
 }
 
@@ -206,7 +216,7 @@
 @media all and (max-width: 500px) { 
   .logo-top {
     width: 220px;
-    margin-top: 38px;
+    margin-top: 48px;
   }
   
   .logo-bot {
@@ -226,3 +236,9 @@
     width: 170px;
   }
 }
+@media all and (max-width: 320px) { 
+.Navigation-listItem:first-of-type a {
+		padding-top:62px;
+	}
+}
+

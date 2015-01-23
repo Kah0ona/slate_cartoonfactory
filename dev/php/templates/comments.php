@@ -12,7 +12,7 @@
 ?>
 
 <?php if ( have_comments() ) : ?>
-			<h3><?php
+			<h3 class="title2"><?php
 			printf( _n( 'One Response to %2$s', '%1$s Responses to %2$s', get_comments_number(), '' ),
 			number_format_i18n( get_comments_number() ), '<span>' . get_the_title() . '</span>' );
 			?></h3>

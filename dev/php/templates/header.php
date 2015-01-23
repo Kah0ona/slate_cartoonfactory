@@ -19,10 +19,11 @@
     <!-- Automate reverse linking (pingbacks) -->
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
     <link href='http://fonts.googleapis.com/css?family=Schoolbell' rel='stylesheet' type='text/css'>
-
+    <link href='http://fonts.googleapis.com/css?family=Luckiest+Guy' rel='stylesheet' type='text/css'>
+ 
     <!-- Favicons -->
-    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/apple-touch-icon.png">
+    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/img/app.png">
 
     <!-- build:remove:expanded -->
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/production.min.css">
@@ -31,23 +32,28 @@
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/production.css">
     <!-- /build -->
 
-    <!-- build:remove:compressed -->
+    <!-- build:remove:compressed --> 
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
     <!-- /build -->
 
     <!-- Wordpress head function -->
     <?php wp_head(); ?>
-    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script> 
 
   </head>
-  <body <?php body_class(); ?> >
+  <body <?php body_class(); ?> > 
     <div class="containter u-gridContainer"> <!-- container alles afsluiter div in footer-->
         <nav class="Bot-Nav ">
             <div class="u-gridContainer header-midden-nav">
-                <img class="logo-top" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.svg"/>
+                <a href="/home"> <img class="logo-top" src="<?php echo get_stylesheet_directory_uri(); ?>/img/TCF_logo2.png"/></a>
                 <div class="nav-animate">
                     <img class="nav-man" src="<?php echo get_stylesheet_directory_uri(); ?>/img/nav-man.png"/>
-                    <img class="nav-wolk" src="<?php echo get_stylesheet_directory_uri(); ?>/img/nav-wolk.png"/>
+                    <img class="nav-wolk1 nav-wolk" src="<?php echo get_stylesheet_directory_uri(); ?>/img/home.svg"/>
+                    <img class="nav-wolk2 nav-wolk" src="<?php echo get_stylesheet_directory_uri(); ?>/img/hoe_werk_ik.svg"/>
+                    <img class="nav-wolk3 nav-wolk" src="<?php echo get_stylesheet_directory_uri(); ?>/img/albums.svg"/>
+                    <img class="nav-wolk4 nav-wolk" src="<?php echo get_stylesheet_directory_uri(); ?>/img/recent_werk.svg"/>
+                    <img class="nav-wolk5 nav-wolk" src="<?php echo get_stylesheet_directory_uri(); ?>/img/app.svg"/> 
+                    <img class="nav-wolk6 nav-wolk" src="<?php echo get_stylesheet_directory_uri(); ?>/img/contact.svg"/>
                 </div>
                 <div class="Nav-toggle u-cf">
                     <a class="Navigation-menuToggle" id="js-navCollapse">
@@ -60,13 +66,13 @@
                 <?php include 'includes/navigation.php'; ?>
                 
                 <div class="Mob-contact-ico">
-                    <a class="Button Button--transparent u-textInverted u-noLine telsvg" href="tel:070123456">
+                    <a class="Button Button--transparent u-textInverted u-noLine telsvg" href="tel:0765310054">
                         <svg class="Icon Icon--inline" viewBox="0 0 128 128">
                             <use xlink:href="#icon-phone"></use> 
                         </svg>
                     </a>
                 
-                        <a class="Button Button--transparent u-textInverted u-noLine mailsvg" href="mailto:dylan@lokaalgevonden.nl">
+                        <a class="Button Button--transparent u-textInverted u-noLine mailsvg" href="mailto:info@thecartoonfactory.nl">
                         <svg class="Icon Icon--inline" viewBox="0 0 128 128">
                             <use xlink:href="#icon-envelope"></use>
                         </svg>
@@ -75,7 +81,7 @@
             </div>     
     </nav>
     <div class="u-gridRow u-gridContainer">
-        <div class="u-gridCol12 header-onder">
+        <div class="u-gridCol12 header-onder banner">
         </div>
     </div> 
    
