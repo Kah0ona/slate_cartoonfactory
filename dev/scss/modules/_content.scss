@@ -31,6 +31,40 @@
   font-size: 30px !important;
   font-weight: 900 !important;
 }
+
+ .page-content{
+	 table {
+		width: 100%;
+		margin: 20px 0px;
+		tr {
+			td {
+				border-top: 2px solid black;
+				padding: 10px;
+			}
+		}
+		tr:first-of-type {
+			td {
+				border-top: 0px solid black;
+			}
+		}
+	 }
+
+ }
+
+
+
+h3 {
+	-webkit-margin-before: 10px;
+	-webkit-margin-after: 0;
+}
+.page-sidebar {
+	.widget {
+		margin-top: 40px;
+		padding: 10px;
+		border: 2px solid black;
+	}
+}
+
 .title2{
 	padding:0% 5%;
 	width:100%;

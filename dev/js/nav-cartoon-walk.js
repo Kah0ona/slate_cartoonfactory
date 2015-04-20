@@ -23,7 +23,8 @@ jQuery(document).ready(function($) {
     $(".nav-man").css("left", "74%");
     $(".nav-wolk5").fadeIn();
   } else {
-    $(".nav-wolk1").css("left", "1.7%");1
+    $(".nav-wolk1").css("left", "1.7%");
+    1
     $(".nav-man").css("left", "0%");
     $(".nav-wolk1").fadeIn();
   }
