@@ -1,9 +1,14 @@
+<?php
+/*
+Template Name: footer
+*/
+?>
 	<div class="Footer">
 
 		<div class="u-gridContainer">
 
 			<content class=" u-gridRow">
-				<article class="content-article footer-1-article-1 u-gridCol12"></article>
+				<article class="content-article footer-1-article-1 u-gridCol12" style="background: url('<?php $img = get_field('footers'); echo $img['url']; ?>');"></article>
 			</content> 
 
 			<content class="u-gridRow">

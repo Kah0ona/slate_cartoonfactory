@@ -30,7 +30,7 @@ Template Name: App page
 						<content class="u-gridCol12">
 							<article class="content-article app-5-article-1">
 								<a href="#">Download de app hier</a>
-							</article>  
+							</article> 
 						</content> 
 				</div>	
 				<div class="u-gridRow">
@@ -42,7 +42,7 @@ Template Name: App page
 
 						<content class="u-gridCol6">
 							<article class="content-article app-4-article-2">
-								<img class="Content--app-Gimg" src="<?php echo get_stylesheet_directory_uri(); ?>/img/placeholder_qr_code.jpg" />
+								<img class="Content--app-Gimg" src="<?php echo get_stylesheet_directory_uri(); ?>/img/qr_code.jpg" />
 							</article>					 
 						</content> 
 				</div>	

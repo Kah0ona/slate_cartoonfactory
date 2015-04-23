@@ -13,7 +13,7 @@ Template Name: workshop
 		</content> 
 
 		<content class="content-1 u-gridRow">
-			<article class="content-article workshop-1-article-1 u-gridCol8 box-padding">
+			<article id="responsivearticle" class="content-article workshop-1-article-1 u-gridCol8 box-padding">
 				<?php the_content(); ?>
 			</article>
 			<aside class="u-gridCol4">

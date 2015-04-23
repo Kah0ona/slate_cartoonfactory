@@ -80,7 +80,7 @@ h3 {
 }
 .content-1{
 	.content-article { 
-		height: 350px;
+		height: 400px;
 	}
 	.content-1-article-1-h4{
 		background:$button1background;
@@ -93,6 +93,7 @@ h3 {
 		font-size: 20px;
 	}
 }
+
 .content-3, .content-4, .content-5{
 	.content-article{
 		height:200px;
@@ -277,8 +278,11 @@ ul{
 		height:100px;
 	}
 
-	.workshop-1-article-2-aside1, .workshop-1-article-2-aside2{
+	.workshop-1-article-2-aside1 {
 		height:164.9px;
+	}
+	.workshop-1-article-2-aside2 {
+		height: 214px;
 	}
 	.workshop-1-article-2-aside1{
 		margin-bottom:7%;
@@ -360,6 +364,11 @@ ul{
 @media all and (max-width: 780px) {
 	.content-6 .content-article{
 		height: 120px;
+	}
+}
+@media all and (max-width: 730px) {
+	#responsivearticle {
+		height: 500px;
 	}
 }
 @media all and (max-width: 667px) {
@@ -450,6 +459,14 @@ ul{
 		width: 70%;
 	}
 }
+
+@media all and (max-width: 530px) {
+  #responsivearticle {
+    height: 600px;
+  }
+}
+
+
 @media all and (max-width: 414px) {
   .button-bottom-right{
     right: -7px;
@@ -480,3 +497,4 @@ ul{
 		height: 270px !important;
 	}
 }
+

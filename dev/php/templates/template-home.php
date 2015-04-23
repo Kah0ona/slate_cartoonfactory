@@ -81,35 +81,36 @@ Template Name: Homepage
 					of rondlopend tussen het publiek.
 				</p>
 			</article>
-	 		<article class="content-article content-3-article-2 u-gridCol4"> 
+	 		<article class="content-article content-3-article-2 u-gridCol4" 
+	 				 style="background: url('<?php $img = get_field('sneltekenen'); echo $img['url']; ?>');"> 
 	 			<a class="button-bottom-left" href="/sneltekenen">sneltekenen</a><p>
 			</article> 
 		</content>  
 
 		<content class="content-4 u-gridRow">
-			<article class="content-article content-4-article-1 u-gridCol3"><a class="button-bottom-right" href="/cartoon">cartoons</a><p></article>
-			<article class="content-article content-4-article-2 u-gridCol6 ">
-				<a class="button1 u-gridCol5" >Cartooning</a><p class="box-padding">Cartoons, strips, karakters en animaties zijn voor velerlei doeleinden inzetbaar.Deze kunnen voor een (glim)lach 
+			<article class="content-article content-4-article-1 u-gridCol3" style="background: url('<?php $img = get_field('cartoons'); echo $img['url']; ?>');"><a class="button-bottom-right" href="/cartoon">cartoons</a><p></article>
+			<article class="content-article content-4-article-2 u-gridCol6">
+				<a href="/albums"class="button1 u-gridCol5" >Cartooning</a><p class="box-padding">Cartoons, strips, karakters en animaties zijn voor velerlei doeleinden inzetbaar.Deze kunnen voor een (glim)lach 
 					zorgen en tegelijkertijd ook een boodschap overbrengen. Een interessante mogelijkheid is het tekenen 
 					op locatie, met digitale apparatuur kunnen we tijdens 
 					bijvoorbeeld een lezing zaken op een leuke manier 
 					visualiseren, dit heet cartooning. 
 				</p>
 			</article>
-			<article class="content-article content-4-article-3 u-gridCol3"><a class="button-bottom-right" href="/animatie">animaties</a><p></article> </article>
+			<article class="content-article content-4-article-3 u-gridCol3" style="background: url('<?php $img = get_field('animaties'); echo $img['url']; ?>');"><a class="button-bottom-right" href="/animatie">animaties</a><p></article> </article>
 		</content>
 
 		<content class="content-5 u-gridRow">
-			<article class="content-article content-5-article-1 u-gridCol3">
+			<article class="content-article content-5-article-1 u-gridCol3" style="background: url('<?php $img = get_field('strips'); echo $img['url']; ?>');">
 				<a class="button-bottom-left" href="/strips">strips</a><p></article>
 			</article>
-			<article class="content-article content-5-article-2 u-gridCol3">
+			<article class="content-article content-5-article-2 u-gridCol3" style="background: url('<?php $img = get_field('karakters'); echo $img['url']; ?>');">
 				<a class="button-bottom-right" href="/karakterontwerp">karakters</a><p></article>
 			</article>
-			<article class="content-article content-5-article-3 u-gridCol3">
+			<article class="content-article content-5-article-3 u-gridCol3" style="background: url('<?php $img = get_field('fantasie'); echo $img['url']; ?>');">
 				<a class="button-bottom-left" href="/fantasie-art">fantasie art</a><p></article>
 			</article>
-			<article class="content-article content-5-article-4 u-gridCol3">
+			<article class="content-article content-5-article-4 u-gridCol3" style="background: url('<?php $img = get_field('divers'); echo $img['url']; ?>');">
 				<a class="button-bottom-right" href="/divers">divers</a><p></article>
 			</article>
 		</content> 
