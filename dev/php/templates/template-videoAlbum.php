@@ -13,6 +13,9 @@ Template Name: videoAlbum
 		</content> 
 
 		<content class="videoAlbum">
+				<div class="content-1-article-2-video">
+					<?php echo get_field('animatievideo'); ?>
+				</div>
 				<?php the_content(); ?>
 		</content> 
 

@@ -23,7 +23,7 @@ Template Name: albums
 
 		<content class="content-2 u-gridRow">
 			<article class="content-article album-2-article-1 u-gridCol3" style="background: url('<?php $img = get_field('strips'); echo $img['url']; ?>');">
-				<a href="/strips"class="button-bottom-left">strips</a><p></article>
+				<a href="/strip"class="button-bottom-left">strips</a><p></article>
 			</article>
 			<article class="content-article album-2-article-2 u-gridCol3" style="background: url('<?php $img = get_field('characters'); echo $img['url']; ?>');">
 				<a href="/karakterontwerp"class="button-bottom-right">characters</a><p></article>

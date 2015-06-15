@@ -248,13 +248,11 @@ ul{
 	}
 }
 //videoAlbum----------------------------------------------------------------------------------
-.videoAlbum{
-	iframe{
-		float: left;
-		width:31%;
-		margin:1%;
-		border: 2px solid $borderColor;
-	}
+
+.videocenter {
+	margin-left: 180px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 //workshop------------------------------------------------------------------------------------

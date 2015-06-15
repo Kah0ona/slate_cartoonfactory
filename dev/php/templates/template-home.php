@@ -40,7 +40,7 @@ Template Name: Homepage
 						<svg class="Icon Icon--inline" viewBox="0 0  128 128">
 							<img class="starcartoon"src="<?php echo get_stylesheet_directory_uri(); ?>/ico/bulletImg.png"/>
 						</svg>
-						<span><a href="/strips">strips</a></span>
+						<span><a href="/strip">strips</a></span>
 					</li>
 					<li>
 						<svg class="Icon Icon--inline" viewBox="0 0  128 128">
@@ -58,7 +58,9 @@ Template Name: Homepage
 				</ul>
 			</article>
 			<article class="content-article content-1-article-2 u-gridCol8">
-				<iframe class="content-1-article-2-video" src="//www.youtube.com/embed/7Ky1HfscI2Q?list=UUSXyGD7M-h9sefqenMDK0Vg" frameborder="0" allowfullscreen></iframe>
+				<div class="content-1-article-2-video">
+					<?php echo get_field('homevideo'); ?>
+				</div>
 			</article>
 		</content> 
 
@@ -102,7 +104,7 @@ Template Name: Homepage
 
 		<content class="content-5 u-gridRow">
 			<article class="content-article content-5-article-1 u-gridCol3" style="background: url('<?php $img = get_field('strips'); echo $img['url']; ?>');">
-				<a class="button-bottom-left" href="/strips">strips</a><p></article>
+				<a class="button-bottom-left" href="/strip">strips</a><p></article>
 			</article>
 			<article class="content-article content-5-article-2 u-gridCol3" style="background: url('<?php $img = get_field('karakters'); echo $img['url']; ?>');">
 				<a class="button-bottom-right" href="/karakterontwerp">karakters</a><p></article>
